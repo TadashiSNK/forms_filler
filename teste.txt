@@ -1,0 +1,106 @@
+div.text
+div.text
+div.text
+div.text
+div.text
+div.text
+div.text
+div.text
+Qual � a proposta do nosso App?
+A ideia � desenvolver um aplicativo que conecte diretamente clientes que precisam de um guincho com profissionais dispon�veis pr�ximos � localiza��o do chamado, permitindo
+Solicita��o r�pida de atendimento
+Compartilhamento de localiza��o em tempo real
+Comunica��o direta com o guincheiro
+Acompanhamento da chegada do guincho pelo app.
+Voc� ou algum familiar possui um autom�vel?
+*
+Sim
+N�o
+Voc� ou seus respons�veis (caso voc� seja menor de idade) possuem seguro automotivo?
+*
+Sim
+N�o
+Voc� ou algu�m que voc� conhece j� precisou de um servi�o de guincho?
+*
+Sim
+N�o
+Voc� conhece algu�m que trabalha com guincho/reboque?
+*
+Sim
+N�o
+Voc� usa/usou algum app de chamados de guincho? Se sim, o servi�o foi satisfat�rio?
+(ex: HelpCars, Cad� Guincho, etc)
+*
+Usei e foi satisfat�rio
+Usei e n�o foi satisfat�rio
+Nunca usei
+Voc� usaria um aplicativo que conecta motoristas a guinchos pr�ximos 24h por dia, com pre�o estimado e tempo de chegada?
+Sim
+N�o
+Talvez
+O que seria mais importante para voc� em um app como esse?
+Pre�o Justo
+Rapidez no atendimento
+Ver avalia��es do guincheiro
+Ver guincho se aproximando pelo app
+Suporte 24h
+Seguran�a e confiabilidade
+Possibilidade de conversar com o motorista
+Outro:
+Qual � a proposta do nosso App?
+A ideia � desenvolver um aplicativo que conecte diretamente clientes que precisam de um guincho com profissionais dispon�veis pr�ximos � localiza��o do chamado, permitindo
+Solicita��o r�pida de atendimento
+Compartilhamento de localiza��o em tempo real
+Comunica��o direta com o guincheiro
+Acompanhamento da chegada do guincho pelo app.
+
+
+Voc� ou algum familiar possui um autom�vel?
+*
+Sim
+N�o
+
+
+Voc� ou seus respons�veis (caso voc� seja menor de idade) possuem seguro automotivo?
+*
+Sim
+N�o
+
+
+Voc� ou algu�m que voc� conhece j� precisou de um servi�o de guincho?
+*
+Sim
+N�o
+
+
+Voc� conhece algu�m que trabalha com guincho/reboque?
+*
+Sim
+N�o
+
+
+Voc� usa/usou algum app de chamados de guincho? Se sim, o servi�o foi satisfat�rio?
+(ex: HelpCars, Cad� Guincho, etc)
+*
+Usei e foi satisfat�rio
+Usei e n�o foi satisfat�rio
+Nunca usei
+
+
+Voc� usaria um aplicativo que conecta motoristas a guinchos pr�ximos 24h por dia, com pre�o estimado e tempo de chegada?
+Sim
+N�o
+Talvez
+
+
+O que seria mais importante para voc� em um app como esse?
+Pre�o Justo
+Rapidez no atendimento
+Ver avalia��es do guincheiro
+Ver guincho se aproximando pelo app
+Suporte 24h
+Seguran�a e confiabilidade
+Possibilidade de conversar com o motorista
+Outro:
+
+
