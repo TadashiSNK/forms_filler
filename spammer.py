@@ -5,6 +5,7 @@ import time
 
 
 
+
 #                                                 \/QUESTION NUM                          \/QUESTION OPTION NUM
 # /html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div/span/div/div[1]/label/div/div[1]/div
 # /html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div/span/div/div[2]/label/div/div[1]/div
@@ -27,8 +28,8 @@ import time
 
 
 
-
-
+# perguntas class = M7eMe
+# questao Checkbock class =  docssharedWizToggleLabeledContainer Yri8Nb
 # mainform CLASS = o3Dpx
 # questao class = nWQGrd zwllIb
 # 
@@ -47,7 +48,7 @@ def main():
     # formsURL = "https://docs.google.com/forms/d/e/1FAIpQLScpoq9tFo4xuGm22tQ2TfB9q8C5xQK4ztQlb9ME3-jih9rW6g/viewform"
     formsURL = "https://docs.google.com/forms/d/e/1FAIpQLSdd3RIqfQSJKVnyHy188js1aF5I8bm1cwRZh8mx0gJaGuzY5w/viewform"
     
-    driver = uc.Chrome(options=options, headless=False, use_subprocess=False)
+    driver = uc.Chrome(options=options, headless=True, use_subprocess=False)
 
 
 
@@ -59,13 +60,17 @@ def main():
         nOpcao = 1   #Contador de divs de opcoes
 
         questionDiv = driver.find_elements(By.CLASS_NAME, "Qr7Oae") #Lista com as questoes
+        checkboxDiv = driver.find_elements(By.CLASS_NAME, "docssharedWizToggleLabeledContainer") #Lista com as Checkbox (contem todas as opções)
         optionDiv = driver.find_elements(By.CLASS_NAME, "nWQGrd") #Lista com as opcoes
+        enunciadosDiv = driver.find_elements(By.CLASS_NAME, "M7eMe") #Lista com os enunciados
 
+        for i, div in enumerate(checkboxDiv, start=1):
+            print(f"Opção {i} {div.text}")
 
-        for div in questionDiv:
-            with open("teste.txt", "a") as f:
-                f.write(f"{div.text}\n\n\n")
+        print("------------")
 
+        for i, div in enumerate(enunciadosDiv, start=1):
+            print(f"Pergunta {i} {div.text}")
 
 
 
@@ -80,7 +85,7 @@ def main():
 
 
     
-    # time.sleep(50000)
+    time.sleep(50000)
 
 
 if __name__ == "__main__":
